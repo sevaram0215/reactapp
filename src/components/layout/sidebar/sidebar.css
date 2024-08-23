@@ -1,0 +1,44 @@
+aside{
+    text-align: left;
+    grid-area: aside;
+    height: auto;
+    /* background-color: rgb(244, 234, 220); */
+    }
+      
+  .header{
+    grid-area: header;
+text-shadow: 20px;
+    font-size: 22px;
+    background-color: rgb(233, 125, 9);
+    /* color: white; */
+  }
+    .Aside_btn_container{
+
+        align-items: center;
+         display: flex;
+         flex-direction: column;
+         text-align: center;
+        
+     
+       }
+       .button{
+        border: none;
+       
+      text-decoration: none;
+         color: black;
+         width: 250px;
+         height: 30px;
+       margin-bottom: 5px;
+         font-size: 20px;
+         background-color: rgb(8, 72, 211);
+         color: white;
+         border-radius: 10px;
+       }
+       .button:hover{
+         cursor: pointer;
+         background-color:white;
+      color: blue;
+      
+         border-radius: 10px;
+
+       }

@@ -1,0 +1,40 @@
+h3{
+    border: 2px  ;
+    color: blue;
+}
+.dashboard{
+/* background-color: #f0f0f0; */
+  /* border: 2px solid red; */
+padding-bottom: 2rem;
+height: auto;
+}
+.btn_container{
+    /* border: 2px solid green ; */
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  overflow: hidden;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+
+}
+.link{
+/* border: 1px solid red; */
+    width: 18%;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+    margin: auto;
+    transition: ease-in-out 3s;
+   
+
+}
+.link:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+transform: scaleX(1.2);
+font-size: 20px;
+}
